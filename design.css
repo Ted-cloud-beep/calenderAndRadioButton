@@ -1,0 +1,103 @@
+body {
+  background: #e6eaf4;
+  margin-top: 150px;
+  margin-left: 293px;
+  font-family: "Roboto", sans-serif;
+}
+label {
+  font-weight: bold;
+}
+.header {
+  color: #0e153a;
+}
+p {
+  font-size: small;
+}
+.firstCard {
+  display: inline-block;
+  background: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+.firstCard .p {
+  cursor: pointer;
+}
+.secondCard {
+  background: #fff;
+  position: absolute;
+  top: 200px;
+  left: 790px;
+  border-radius: 10px;
+}
+.date {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.date h3 {
+  margin: 0px;
+}
+.secondCard {
+  width: 299px;
+}
+.secondCard .p {
+  cursor: pointer;
+}
+.secondCard .p:hover {
+  color: coral;
+}
+.secondCard .header {
+  padding: 5px;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-bottom: solid 1px;
+  border-color: rgb(14, 21, 58, 0.1);
+}
+.align {
+  display: flex;
+  flex-wrap: wrap;
+}
+.align .one {
+  padding: 9px 1px;
+  width: 57px;
+  margin: 0;
+  text-align: center;
+}
+.align .two {
+  padding: 9px 1px;
+  width: 57px;
+  margin: 0;
+  text-align: center;
+}
+.align .b {
+  font-weight: bold;
+}
+.align .dim {
+  opacity: 0.3;
+}
+.align .p {
+  cursor: pointer;
+}
+.align .p:hover {
+  background: cyan;
+}
+/* .Days {
+  display: flex;
+  justify-content: space-around;
+}
+.num {
+  display: flex;
+  justify-content: space-around;
+}
+.num .dim {
+  opacity: 0.3;
+}
+.num h3 {
+  margin: 10px;
+  text-align: center;
+} */
